@@ -10,6 +10,8 @@ This paper:
 1. Proposes some techniques that helps stabilize training in models that were previously unstable.
 2. Proposes an evaluation metric (Inception score) for comparing the quality of different models.
 
+---
+
 In this paper, the process of training a generative adversarial network is described as the process of finding a Nash Equilibrium - similar to that of game theory – between the generator and the discriminator. A Nash Equilibrium occurs when each player has minimal cost, but traditional gradient based minimization techniques don’t seem to work well on this problem, and there’s no guarantee that this process will converge.
 
 ## Techniques that Encourage Convergence
